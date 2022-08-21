@@ -1,0 +1,42 @@
+@media (min-width : 375px) and (max-width: 767px) {
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+.logo {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-left: 19px;
+}
+
+.cancel {
+	display: flex;
+	text-align: center;
+	float: right;
+	padding-right: 23px;
+}
+
+.menu ul {
+	list-style: none;
+	padding-top: 35px;
+	padding-left: 19px;
+	color: #415123;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 500;
+}
+
+.menu li {
+	padding-bottom: 16px;
+	text-decoration: none;
+	font-weight: 500;
+}
+}
