@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("mtk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type="button"] {
+  padding: 10px;
+  font-size: 28px;
+  margin: 10px;
+}
+
+td {
+  padding: 20px;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 50px;
+  font-size: 28px;
+  display: block;
+  margin: auto;
+}
+
+tbody {
+  width: 20px;
+}
+
+table {
+  margin: auto;
+  margin-top: 30px;
+}
