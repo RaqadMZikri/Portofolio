@@ -1,0 +1,33 @@
+input[type="button"] {
+  padding: 10px;
+  font-size: 28px;
+  margin: 10px;
+  max-width: 50%;
+}
+
+input[type="button"]:hover {
+  cursor: pointer;
+  background-color: rgb(105, 207, 100);
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 50px;
+  font-size: 28px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  max-width: 50%;
+}
+
+form {
+  text-align: center;
+  max-width: 100%;
+}
+
+body {
+  background-image: url("mtk.jpg");
+  background-size: cover;
+}
