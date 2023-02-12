@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -10,8 +11,7 @@ html, body {
 
 .navbar {
     height: 70px;
-    
-   display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-right: 50px;
@@ -21,32 +21,34 @@ html, body {
 .logo {
     padding-top: 15px;
     display: flex;
-   align-items: center;
+    align-items: center;
 }
+
 
 /* header{
     display: flex;
     align-items: center;
     height: 70px;
  }*/
- .navigation {
+
+.navigation {
     display: flex;
     align-items: center;
- }
+}
 
-
- .drawer {
+.drawer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
- }
+}
 
- .drawer li:not(:last-child){
+.drawer li:not(:last-child) {
     margin-right: 45px;
- }
+}
+
 header ul {
-   /* list-style: none;
+    /* list-style: none;
     font-size: 18px;
     color: #415123;
     line-height: 27px;
@@ -58,12 +60,13 @@ header ul {
     font-weight: 500;*/
 }
 
-    .drawer li {
-        list-style: none;
-        font-size: 18px;
-        color: #415123;
-        line-height: 27px;
-    }
+.drawer li {
+    list-style: none;
+    font-size: 18px;
+    color: #415123;
+    line-height: 27px;
+}
+
 
 /*.nav-menu {
     display: flex;
@@ -75,7 +78,6 @@ header ul {
     padding-top: 23px;
     font-weight: 500;
 }*/
-
 
 .main-banner {
     position: relative;
@@ -154,7 +156,7 @@ input.viewproduct {
     font-size: 14px;
     background-color: none;
     /* opacity: 3; */
-    padding: 12px 32px  16px 32px;
+    padding: 12px 32px 16px 32px;
     background: border-box;
 }
 
@@ -180,7 +182,6 @@ p.deskripsi-age {
     font-size: 14px;
     line-height: 28px;
     margin: 0;
-
 }
 
 input.shopproduct {
@@ -210,52 +211,42 @@ input.shopproduct {
     margin: 0;
 }
 
-
 .age-banner {
     display: flex;
 }
 
-.elderly, .young {
+.elderly,
+.young {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .young {
-    background: linear-gradient(rgba(65, 81, 35, 0.62),rgba(65, 81, 35, 0.62)), url('Clarity/img/young-people-crop.png');
+    background: linear-gradient(rgba(65, 81, 35, 0.62), rgba(65, 81, 35, 0.62)), url('Clarity/img/young-people-crop.png');
     width: 50%;
     height: 500px;
     background-size: cover;
 }
 
 .elderly {
-    background:  linear-gradient(rgba(65, 81, 35, 0.62),rgba(65, 81, 35, 0.62)), url('Clarity/img/elderly-crop.png')  ;
+    background: linear-gradient(rgba(65, 81, 35, 0.62), rgba(65, 81, 35, 0.62)), url('Clarity/img/elderly-crop.png');
     width: 50%;
     height: 500px;
     background-size: cover;
 }
 
 .lingkaran-hijau {
-   
-width: 70.8px;
-   
-height: 70.8px;
-   
-margin: auto;
-   
-margin-top: 23px;
-   
-background-repeat: no-repeat;
-   
-background: #415123;
-   
-border-radius: 50%;
-   
-display: flex;
-   
-justify-content: center;
-   
-align-items: center;
+    width: 70.8px;
+    height: 70.8px;
+    margin: auto;
+    margin-top: 23px;
+    background-repeat: no-repeat;
+    background: #415123;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2.title-reason {
@@ -375,17 +366,15 @@ figure.item-thumbnail {
     padding: 0;
 }
 
-
 img.super {
     border-radius: 10px;
-    border-color: ##FFF9F2;
+    border-color: #FFF9F2;
     /* display: flex; */
     /* padding: 23px 27px; */
     /* justify-content: center; */
     /* align-items: center; */
     margin: auto;
 }
-
 
 .title2 {
     font-size: 40px;
@@ -459,15 +448,15 @@ p.deskripsi-testimoni {
     color: #333333;
     padding-left: 108px;
     padding-right: 108px;
-
 }
 
-.name-testimonial ,  .address-testimonial {
-     /* display: flex; */
-     /* flex-direction: column; */
-     width: 101px;
-     /* float: none; */
-     display: grid;
+.name-testimonial,
+.address-testimonial {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 101px;
+    /* float: none; */
+    display: grid;
 }
 
 .testimoni-phone {
@@ -480,7 +469,6 @@ p.deskripsi-testimoni {
     line-height: 18px;
     margin: 0;
 }
-
 
 p.address-testimonial {
     font-size: 10px;
@@ -498,15 +486,13 @@ p.address-testimonial {
 }
 
 .contact {
-    background-image:url('clarity/img/newsletter-crop.png') ;
-    background-color: rgba(65,81,35,0.4);
+    background-image: url('clarity/img/newsletter-crop.png');
+    background-color: rgba(65, 81, 35, 0.4);
     opacity: 0.5;
     background-size: cover;
     width: 100%;
     text-align: center;
     height: 332px;
-    
-
 }
 
 #description {
@@ -567,8 +553,8 @@ input[type="password"]:focus-visible,
 textarea {
     outline: none;
 }
-    
-    .mail {
+
+.mail {
     width: 16px;
     height: 10px;
     color: #999999;
@@ -578,7 +564,6 @@ textarea {
     bottom: 105px;
     justify-content: center
 }
-    
 
 .footer-bottom {
     background-color: #415123;
@@ -591,7 +576,6 @@ textarea {
 }
 
 .logo-bottom {
-    
     margin-top: 18px;
 }
 
@@ -602,7 +586,6 @@ textarea {
     padding-top: 9px;
     padding-right: 50px;
     font-size: 14px;
-    
 }
 
 .kolom1 {
@@ -665,11 +648,11 @@ p.twitter {
 }
 
 .copyright {
- background-color: #415123;
+    background-color: #415123;
 }
 
 .description-copyright {
-    text-align: center; 
+    text-align: center;
     color: #CBD8B4;
     padding-bottom: 22px;
 }
@@ -679,9 +662,9 @@ p.twitter {
 }
 
 .contact-subscriber {
-    background: linear-gradient(rgba(65, 81, 35, 0.86),rgba(65, 81, 35, 0.86)), url('Clarity/img/newsletter-crop.png');
-   /* background: url(clarity/img/newsletter-crop.png);*/
-/*    background-color: rgba(65,81,35,0.4);*/
+    background: linear-gradient(rgba(65, 81, 35, 0.86), rgba(65, 81, 35, 0.86)), url('Clarity/img/newsletter-crop.png');
+    /* background: url(clarity/img/newsletter-crop.png);*/
+    /*    background-color: rgba(65,81,35,0.4);*/
     background-size: cover;
     width: 100%;
     text-align: center;
@@ -711,7 +694,6 @@ div#description-subscriber {
     text-align: center;
 }
 
-
 p.telp:before {
     content: '';
     background-image: url('clarity/img/telp.png');
@@ -727,6 +709,7 @@ p.telp {
     align-items: center;
     padding-bottom: 17px;
 }
+
 
 /*.contact-subscriber:before {
     content: '';
@@ -806,27 +789,25 @@ input[type="text"] {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
-
 }
 
+.input-text button {
+    color: #FFFFFF;
+    width: 144px;
+    height: 46px;
+    background-color: #415123;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    text-decoration: none;
+}
 
-    .input-text button {
-        color: #FFFFFF;
-        width: 144px;
-        height: 46px;
-        background-color: #415123;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 24px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        border-radius: 10px;
-        text-decoration: none;
-    }
-
-    .input-text img {
-        width: 16px;
-        height: 10px;
-        margin: auto;
-    }
+.input-text img {
+    width: 16px;
+    height: 10px;
+    margin: auto;
+}
